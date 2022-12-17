@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+body{
+    background-color:rgb(207, 200, 200);
+}
+h1 {
+    font-family: 'Aclonica',
+        cursive;
+    font-size: 10 ; 
+    
+}
+
+p {
+    font-family: 'Edu VIC WA NT Beginner',
+        cursive;
+}
+
+.contentMain{
+    font-size: 5;
+}
+.mainTitle{
+    color: brown
+}
+.sample {
+    text-align:right;
+    margin-right: 200px;
+}
+
+.container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.userForm{
+    margin-top: 50px;
+}
+
+.uploadbtn{
+    text-align: right;
+    margin: 10px 20px 0 0;
+}
+.res{    
+    color: aliceblue;
+    background-color:darkblue; 
+    padding: 10px;
+    font-size: 40px;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    justify-content: center;
+}
