@@ -6,12 +6,12 @@ qrcodeData = "sdwajk"
 
 @app.route('/')
 def hello_world():
-    return "Main page!"
+    return render_template("home.html")
 
 
 @app.route('/login')
 def login():
-    return render_template("login.html", qrcodeData=qrcodeData)
+    return render_template("login.html")
 
 
 if __name__ == "__main__":
