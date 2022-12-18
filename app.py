@@ -26,7 +26,7 @@ def DecodeQRCode(qrcodeimg):  # pass path of img
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
-    return render_template("home.html")
+    return render_template("index.html")
 
 
 class UploadFileForm(FlaskForm):
