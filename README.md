@@ -26,6 +26,13 @@ Step 4 : Run the command : flask --app app run to run the flask application <br/
 <br/>
 
 # SCREENSHOTS<br/>
+![P1](https://user-images.githubusercontent.com/84143583/208282247-513f7b8d-c58b-4687-ba93-f1f749390fea.png)
+![P2](https://user-images.githubusercontent.com/84143583/208282249-3be8df1d-1146-4a00-bad5-51e2982ad5d8.png)
+![P3](https://user-images.githubusercontent.com/84143583/208282250-f6eb7ff0-89c1-44b9-98f1-ef918d1dcb82.png)
+
+
+
+
 
 
 
