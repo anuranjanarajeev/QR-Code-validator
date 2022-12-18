@@ -11,11 +11,9 @@ QR Code Validator helps the effective scanning and validation of the QR Code. QR
 3.User Friendly UI
 <br/><br/>
 
-Deployment Link : 
-<br/><br/>
-
 Frontend : HTML,CSS,Bootstrap <br/>
-Backend : Flask (Python)
+Backend : Flask (Python) <br/>
+Text editor : VS Code
 <br/>
 
 # How to set up locally <br/>
