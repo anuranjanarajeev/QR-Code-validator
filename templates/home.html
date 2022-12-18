@@ -13,17 +13,21 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
-<body>
-    <h2 class="uploadbtn">
-        <a class="btn btn-primary" href="/upload" role="button">Upload Image</a>
-    </h2>
+<body style="background-color:#191970;">
+    <div class="mainbar">
 
-    <h1>
-        <div class="mainTitle">QR CODE <br>VERIFICATION
-    </h1>
+        <h2 class="uploadbtn">
+            <a class="btn btn-primary" href="/upload" role="button">Upload Image</a>
+        </h2>
+
+        <h1>
+            <div>QR CODE<br>VERIFICATION
+        </h1>
+    </div>
     <br /><br />
-    <img class="sample" src="../images/img.jpeg" alt="QR code scanner">
-    <p>
+
+    <p class="content">
+        <img class="qrimg" src="{{ url_for('static',filename='/images/QRimg.jpg')}}" alt="QR code scanner">
         If you’re printing QR codes, you need to ensure they’re constructed
         correctly.<br /><br />
         After creating your code, you will need QR code verification (also known
@@ -37,6 +41,7 @@
         scannable,<br /><br />
         you need a QR code verifier.
     </p>
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

@@ -2,16 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
 
 body{
-    background-color:rgb(207, 200, 200);
+  
+    margin-left: 20px;
+    background-color:#191970;
 }
 h1 {
+    color: azure;
     font-family: 'Aclonica',
         cursive;
     font-size: 10 ; 
-    
 }
 
+.subhead{
+    color: azure;
+}
 p {
+    margin-right: 40px;
+    color: azure;
     font-family: 'Edu VIC WA NT Beginner',
         cursive;
 }
@@ -22,14 +29,17 @@ p {
 .mainTitle{
     color: brown
 }
-.sample {
-    text-align:right;
-    margin-right: 200px;
+.qrimg{
+    width: 500px;
+    padding: 10px;
+    float: left;
+    /*text-align:right;
+    margin-right: 200px;*/
 }
 
 .container {
     position: absolute;
-    top: 30%;
+    top:50%;
     left: 50%;
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -41,19 +51,22 @@ p {
     margin-top: 50px;
 }
 
-.uploadbtn{
+.content{
+    font-size: 20px;
     text-align: right;
-    margin: 10px 20px 0 0;
+}
+.uploadbtn{
+    padding: 20px 30px;
+    text-align: right;
 }
 .res{    
-    color: aliceblue;
-    background-color:darkblue; 
+    color: black;
+    background-color:skyblue; 
     padding: 10px;
     font-size: 40px;
     width: 400px;
     height: 100px;
     position: absolute;
-    top: 50%;
     left: 50%;
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -61,3 +74,4 @@ p {
     text-align: center;
     justify-content: center;
 }
+

@@ -44,9 +44,9 @@ def upload_files():
         filename = secure_filename(file.filename)
         userFile = "sample\\files\\"+filename
         result = DecodeQRCode(userFile)
-        return render_template("result.html", result=result)
-
-    return render_template('upload.html', form=form)
+        return render_template("upload.html", form=form, result=result)
+    else:
+        return render_template('upload.html', form=form)
 
 
 if __name__ == "__main__":

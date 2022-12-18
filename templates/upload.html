@@ -12,10 +12,10 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
-<body>
+<body style="background-color:#191970;">
     <div class="container">
         <h1>Upload QR Code</h1>
-        <h3>As jpg or jpeg files</h3>
+        <h3 class="subhead">As jpg or jpeg files</h3>
 
         <form class="userForm" method='POST' enctype='multipart/form-data'>
             {{form.hidden_tag()}}
@@ -23,6 +23,13 @@
             {{form.submit()}}
         </form>
 
+        {% if result %}
+        <div class="res" class="card">
+            <div class="card-body">
+                {{result}}
+            </div>
+        </div>
+        {% endif %}
 
     </div>
     <!-- JavaScript Bundle with Popper -->
